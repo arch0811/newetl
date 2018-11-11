@@ -1,2 +1,4 @@
 com/bigdata/etl/job/ParseLogJob$LogMapper.class
 com/bigdata/etl/job/ParseLogJob.class
+com/bigdata/etl/job/ParseLogJob1.class
+com/bigdata/etl/job/ParseLogJob1$LogMapper.class
