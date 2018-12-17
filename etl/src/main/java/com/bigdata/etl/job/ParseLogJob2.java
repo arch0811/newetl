@@ -37,10 +37,10 @@ public class ParseLogJob2 extends Configured implements Tool {
         logData.setTimeTag(timeTag);
         logData.setDeviceID(bizData.getString("device_id"));
         logData.setIp(bizData.getString("ip"));
-        logData.getOrderID(bizData.getString("order_id"));
-        logData.getProductID(bizData.getString("product_id"));
-        logData.getReqUrl(bizData.getString("req_url"));
-        logData.getSessionID(bizData.getString("session_id"));
+        logData.setOrderID(bizData.getString("order_id"));
+        logData.setProductID(bizData.getString("product_id"));
+        logData.setReqUrl(bizData.getString("req_url"));
+        logData.setSessionID(bizData.getString("session_id"));
         logData.setUserID(bizData.getString("user_id"));
 
 
