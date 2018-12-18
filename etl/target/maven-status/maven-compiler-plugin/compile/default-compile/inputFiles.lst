@@ -1,4 +1,7 @@
 /Users/Arch/netease/etl/src/main/java/com/bigdata/etl/job/ParseLogJob2.java
+/Users/Arch/netease/etl/src/main/java/com/bigdata/etl/job/ParseLogJob3.java
 /Users/Arch/netease/etl/src/main/java/com/bigdata/etl/job/ParseLogJob1.java
+/Users/Arch/netease/etl/src/main/java/com/bigdata/etl/mr/LogFieldWritable.java
 /Users/Arch/netease/etl/src/main/java/com/bigdata/etl/job/ParseLogJob.java
+/Users/Arch/netease/etl/src/main/java/com/bigdata/etl/mr/LogGenericWritable.java
 /Users/Arch/netease/etl/src/main/java/com/bigdata/etl/mr/LogBeanWritable.java

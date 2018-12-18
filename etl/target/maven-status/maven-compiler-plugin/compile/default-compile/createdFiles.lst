@@ -1,8 +1,14 @@
+com/bigdata/etl/job/ParseLogJob3$LogWritable.class
+com/bigdata/etl/mr/LogGenericWritable.class
+com/bigdata/etl/mr/LogBeanWritable.class
+com/bigdata/etl/job/ParseLogJob2$LogReducer.class
+com/bigdata/etl/job/ParseLogJob1.class
+com/bigdata/etl/mr/LogFieldWritable.class
+com/bigdata/etl/job/ParseLogJob3$LogMapper.class
 com/bigdata/etl/job/ParseLogJob$LogMapper.class
+com/bigdata/etl/job/ParseLogJob3.class
 com/bigdata/etl/job/ParseLogJob.class
 com/bigdata/etl/job/ParseLogJob1$LogMapper.class
 com/bigdata/etl/job/ParseLogJob2.class
 com/bigdata/etl/job/ParseLogJob2$LogMapper.class
-com/bigdata/etl/mr/LogBeanWritable.class
-com/bigdata/etl/job/ParseLogJob2$LogReducer.class
-com/bigdata/etl/job/ParseLogJob1.class
+com/bigdata/etl/job/ParseLogJob3$LogReducer.class

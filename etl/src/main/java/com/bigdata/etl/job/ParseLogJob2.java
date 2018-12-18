@@ -73,13 +73,13 @@ public class ParseLogJob2 extends Configured implements Tool {
         Configuration config = getConf();
         // main方法中已经传入configuration，这里就不需要再new出来了，使用getconf获取配置
         Job job = Job.getInstance(config);//设置运行的类
-        job.setJarByClass(ParseLogJob1.class);
+        job.setJarByClass(ParseLogJob2.class);
         job.setJobName("parselog");//设置job的名称
-        job.setMapperClass(ParseLogJob.LogMapper.class);//设置map类
+        job.setMapperClass(ParseLogJob2.LogMapper.class);//设置map类
         job.setReducerClass(LogReducer.class);//设置reduce类
         job.setMapOutputValueClass(LongWritable.class);//map输出的key的类型
         job.setMapOutputValueClass(LogBeanWritable.class);
-        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(Text.class);
         //job.setNumReduceTasks(0);//如果不需要reduce，则设置为0
 
         //指定输入输出数据路径
@@ -96,7 +96,7 @@ public class ParseLogJob2 extends Configured implements Tool {
 
     //使用ToolRunner，传入hadoop的配置
     public static void main(String[] args) throws Exception {
-        int res = ToolRunner.run(new Configuration(), new ParseLogJob1(), args);
+        int res = ToolRunner.run(new Configuration(), new ParseLogJob2(), args);
         System.exit(res);
 
 
